@@ -78,3 +78,35 @@ nav {
   width: 70%;
   margin-top: -10rem;
 }
+
+.text {
+  padding: 4rem 0;
+}
+
+.text-section-heading {
+  margin-bottom: 1rem;
+  font-size: 2.25rem;
+}
+
+.text-section-desc {
+  line-height: 1.6;
+}
+
+.text-2-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+}
+
+.text-2-section-heading {
+  margin-bottom: 1rem;
+  font-size: 2.25rem;
+}
+
+.text-2-section-desc {
+  line-height: 1.6;
+}
+
+.left-col {
+  align-self: center;
+}
