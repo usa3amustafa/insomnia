@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+:root {
+  --font-family: 'Open Sans', sans-serif;
+}
 
 * {
   margin: 0;
@@ -6,8 +10,10 @@
   box-sizing: border-box;
 }
 
+/* utilities  */
+
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family);
 }
 
 .container {
@@ -53,6 +59,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+
   gap: 3rem;
 }
 
@@ -71,7 +78,7 @@ nav {
 
 .hero-section {
   text-align: center;
-  padding: 8rem 0 9rem 0;
+  padding: 8rem 0;
 }
 
 .hero-section-title {
@@ -79,18 +86,20 @@ nav {
 }
 
 .hero-section-subtitle {
+  font-size: 2rem;
   font-weight: 400;
   font-style: italic;
-  font-size: 2rem;
 }
 
-.hero-img {
-  text-align: center;
+.hero-img-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-img-img {
-  width: 70%;
-  margin-top: -10rem;
+  width: 65%;
+  margin-top: -9rem;
 }
 
 /* text section  */
@@ -140,6 +149,7 @@ nav {
 
 .reviews-section {
   padding: 4rem 0;
+
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 1rem;
@@ -158,6 +168,7 @@ nav {
 .review-text {
   font-style: italic;
   margin-bottom: 0.5rem;
+  line-height: 1.6;
 }
 
 .emoji {
@@ -173,15 +184,19 @@ nav {
 }
 
 .read-reply-btn {
-  font-family: 'Poppins', sans-serif;
   font-size: 1rem;
+  font-family: var(--font-family);
   font-weight: 500;
-  padding: 0.5rem 2rem;
-  border-radius: 2rem;
-  border: none;
-  cursor: pointer;
-  color: rgba(255, 255, 255, 0.9);
+
   background-color: #69428f;
+  color: rgba(255, 255, 255, 0.9);
+
+  padding: 0.5rem 2rem;
+
+  border: none;
+  border-radius: 2rem;
+
+  cursor: pointer;
   transition: all 0.3s ease;
 }
 
@@ -195,15 +210,18 @@ nav {
 }
 
 .reply {
+  line-height: 1.6;
   height: 0;
   overflow: hidden;
+  transform: translateY(-1.25rem);
 
-  transition: height 0.5s ease;
+  transition: height 0.5s ease, transform 0.5s ease;
 }
 
 .show-reply {
   padding: 0 2rem;
-  height: 100%;
+  height: 60%;
+  transform: translateY(0);
 }
 
 .answer-text-link {
@@ -277,7 +295,7 @@ nav {
   padding: 0.75rem 2.5rem;
   border: none;
   border-radius: 2rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family);
   font-size: 1rem;
   color: #fefefe;
   background-color: #8bc34a;
@@ -300,7 +318,7 @@ footer {
 
   padding: 4rem 0;
 
-  border-top: 1rem solid #39c7ce;
+  border-top: 10px solid #39c7ce;
 }
 
 .footer-top {
@@ -329,6 +347,7 @@ footer {
   padding: 0.75rem 2rem;
   color: #787474;
   width: 300px;
+  font-size: 1rem;
 }
 
 .newsletter-input:focus {
@@ -345,7 +364,7 @@ footer {
   border: none;
   border-radius: 0px 25px 25px 0px;
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family);
   transition: all 0.3s ease;
 }
 
