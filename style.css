@@ -28,13 +28,25 @@ img {
   width: 100%;
 }
 
+.italic {
+  font-style: italic;
+}
+
+/* nav  */
+
 nav {
   background-color: #592d83;
   border-bottom: 1px solid #fefefe;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
 }
 
 .nav {
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .nav-links {
@@ -50,6 +62,8 @@ nav {
   text-transform: capitalize;
 }
 
+/* hero section  */
+
 .hero {
   background-color: #592d83;
   color: #fefefe;
@@ -57,7 +71,7 @@ nav {
 
 .hero-section {
   text-align: center;
-  padding: 3rem 0 9rem 0;
+  padding: 8rem 0 9rem 0;
 }
 
 .hero-section-title {
@@ -79,6 +93,8 @@ nav {
   margin-top: -10rem;
 }
 
+/* text section  */
+
 .text {
   padding: 4rem 0;
 }
@@ -91,6 +107,8 @@ nav {
 .text-section-desc {
   line-height: 1.6;
 }
+
+/* text 2 section  */
 
 .text-2-section {
   display: grid;
@@ -117,6 +135,8 @@ nav {
   background-size: cover;
   background-position: center center;
 }
+
+/* reviews  */
 
 .reviews-section {
   padding: 4rem 0;
@@ -168,6 +188,26 @@ nav {
 .read-reply-btn:hover {
   color: rgba(255, 255, 255, 1);
   transform: scale(1.03);
+}
+
+.hide-reply-btn {
+  display: none;
+}
+
+.reply {
+  height: 0;
+  overflow: hidden;
+
+  transition: height 0.5s ease;
+}
+
+.show-reply {
+  padding: 0 2rem;
+  height: 100%;
+}
+
+.answer-text-link {
+  font-weight: 600;
 }
 
 /* showcase section */
