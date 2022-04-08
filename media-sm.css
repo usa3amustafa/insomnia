@@ -43,14 +43,4 @@
   .stars {
     display: block;
   }
-
-  /* footer */
-
-  .newsletter-input {
-    width: 400px;
-  }
-
-  .newsletter-input:focus {
-    outline: none;
-  }
 }

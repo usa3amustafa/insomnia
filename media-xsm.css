@@ -1,56 +1,31 @@
-@media (max-width: 768px) {
-  /* hero section  */
-  .hero-img-img {
-    margin-top: -8rem;
-    width: 100%;
-  }
-
-  /* text 2 section */
-  .right-col {
-    grid-row: 1/2;
-    width: 100%;
-    max-width: 400px;
-    height: 250px;
-  }
-
-  .text-2-section {
-    grid-template-columns: 1fr;
-  }
-
-  /* insomnia image */
-
-  .insomnia-img {
-    display: block;
-  }
-
-  .insomnia-img > img {
-    width: 100%;
-  }
-
-  /* reviews  */
-
-  .reviews-section {
-    grid-template-columns: 1fr;
+@media (max-width: 520px) {
+  .container {
+    width: 95%;
   }
 
   /* showcase section */
 
   .showcase-section {
-    grid-template-columns: 1fr;
-    row-gap: 2rem;
+    padding: 1rem 0;
+    row-gap: 1rem;
   }
 
-  .stars {
-    display: block;
+  .showcase-text-title {
+    margin-bottom: 1rem;
+  }
+
+  .view-reviews {
+    margin-bottom: 1rem;
   }
 
   /* footer */
 
   .newsletter-input {
-    width: 400px;
+    width: 100%;
+    margin: 0 auto;
   }
 
-  .newsletter-input:focus {
-    outline: none;
+  .newsletter-input-btn {
+    padding: 0.75rem 1.5rem;
   }
 }
