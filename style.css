@@ -69,6 +69,13 @@ nav {
   text-transform: capitalize;
 }
 
+.other-nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 /* hero section  */
 
 .hero {
