@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+  /* hero section  */
+  .hero-img-img {
+    margin-top: -8rem;
+    width: 100%;
+  }
+
+  /* text 2 section */
+  .right-col {
+    grid-row: 1/2;
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+  }
+
+  .text-2-section {
+    grid-template-columns: 1fr;
+  }
+
+  /* insomnia image */
+
+  .insomnia-img {
+    display: block;
+  }
+
+  .insomnia-img > img {
+    width: 100%;
+  }
+
+  /* reviews  */
+
+  .reviews-section {
+    grid-template-columns: 1fr;
+  }
+
+  /* showcase section */
+
+  .showcase-section {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+
+  .stars {
+    display: block;
+  }
+
+  /* footer */
+
+  .newsletter-input {
+    width: 400px;
+  }
+
+  .newsletter-input:focus {
+    outline: none;
+  }
+}

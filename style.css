@@ -177,6 +177,12 @@ nav {
   background-position: center center;
 }
 
+/* insomnia image */
+
+.insomnia-img {
+  display: none;
+}
+
 /* reviews  */
 
 .reviews-section {
@@ -241,13 +247,14 @@ nav {
   line-height: 1.6;
   height: 0;
   overflow: hidden;
+  width: 85%;
+  margin: 0 auto;
   transform: translateY(-1.25rem);
 
   transition: height 0.5s ease, transform 0.5s ease;
 }
 
 .show-reply {
-  padding: 0 2rem;
   height: 60%;
   transform: translateY(0);
 }

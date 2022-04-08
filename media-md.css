@@ -32,6 +32,10 @@
 
   /* reviews  */
 
+  .review {
+    padding: 1rem 1.5rem;
+  }
+
   .show-reply {
     height: 65%;
   }
@@ -40,6 +44,8 @@
 
   .showcase-section {
     padding: 4rem 0;
+    grid-template-columns: 2fr 3fr;
+    column-gap: 2rem;
   }
 
   .showcase-text-title {
