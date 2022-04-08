@@ -1,0 +1,72 @@
+@media (max-width: 1026px) {
+  /* utilities  */
+
+  .container-nav {
+    width: 95%;
+  }
+
+  .container {
+    width: 85%;
+  }
+
+  /* nav  */
+
+  .nav {
+    padding: 2.25rem 0;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  /* hero section  */
+
+  .hero-img-img {
+    margin-top: -8rem;
+    width: 90%;
+  }
+
+  /* reviews  */
+
+  .show-reply {
+    height: 65%;
+  }
+
+  /* showcase section */
+
+  .showcase-section {
+    padding: 4rem 0;
+  }
+
+  .showcase-text-title {
+    margin-bottom: 2rem;
+  }
+
+  .showcase-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .stars {
+    display: none;
+  }
+
+  .view-reviews {
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  /* footer */
+
+  .newsletter-input {
+    width: 400px;
+  }
+
+  .newsletter-input:focus {
+    outline: none;
+  }
+}

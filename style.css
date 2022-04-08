@@ -22,6 +22,12 @@ body {
   margin: 0 auto;
 }
 
+.container-nav {
+  width: 80%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
 a {
   text-decoration: none;
 }
@@ -30,9 +36,9 @@ ul {
   list-style: none;
 }
 
-img {
+/* img {
   width: 100%;
-}
+} */
 
 .italic {
   font-style: italic;
@@ -76,6 +82,25 @@ nav {
   gap: 0.5rem;
 }
 
+.hamburger-menu {
+  display: none;
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+
+.bar {
+  height: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 40px;
+}
+
 /* hero section  */
 
 .hero {
@@ -105,7 +130,7 @@ nav {
 }
 
 .hero-img-img {
-  width: 65%;
+  width: 75%;
   margin-top: -9rem;
 }
 
@@ -184,10 +209,6 @@ nav {
 
 .review-author {
   margin-bottom: 1rem;
-}
-
-.star {
-  color: #f0ad4e;
 }
 
 .read-reply-btn {
@@ -291,6 +312,15 @@ nav {
 
 .stars {
   margin-bottom: 0.5rem;
+}
+
+.view-reviews {
+  display: inline-block;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+
+  display: none;
 }
 
 .showcase-text-desc {
