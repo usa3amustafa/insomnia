@@ -30,14 +30,14 @@ document.addEventListener('click', e => {
   }
 })
 
-dropdown.addEventListener('mouseover', e => {
-  dropdownMenu.classList.add('show-dropdown')
-})
+// dropdown.addEventListener('mouseover', e => {
+//   dropdownMenu.classList.add('show-dropdown')
+// })
 
-dropdownMenu.addEventListener('mouseleave', e => {
-  if (e.target.classList.contains('dropdown-link')) return
-  else dropdownMenu.classList.remove('show-dropdown')
-})
+// dropdownMenu.addEventListener('mouseleave', e => {
+//   if (e.target.classList.contains('dropdown-link')) return
+//   else dropdownMenu.classList.remove('show-dropdown')
+// })
 
 hamburgerMenu.addEventListener('click', () => {
   navLinks.classList.toggle('show-nav')
