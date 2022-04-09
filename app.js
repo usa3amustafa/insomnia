@@ -30,7 +30,7 @@ document.addEventListener('click', e => {
   }
 })
 
-dropdown.addEventListener('mouseenter', e => {
+dropdown.addEventListener('mouseover', e => {
   dropdownMenu.classList.add('show-dropdown')
 })
 
