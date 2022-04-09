@@ -1,8 +1,4 @@
 @media (max-width: 520px) {
-  .container {
-    width: 95%;
-  }
-
   /* showcase section */
 
   .showcase-section {
@@ -12,6 +8,11 @@
 
   .showcase-text-title {
     margin-bottom: 1rem;
+  }
+
+  .showcase-img {
+    width: 90%;
+    height: 90%;
   }
 
   .view-reviews {

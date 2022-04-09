@@ -1,4 +1,13 @@
 @media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  /* nav */
+  .nav {
+    padding: 1rem 0;
+  }
+
   /* hero section  */
   .hero-img-img {
     margin-top: -8rem;
