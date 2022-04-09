@@ -24,13 +24,14 @@
   <body>
     <nav>
       <div class="container-nav nav">
-        <a href="#" class="hamburger-menu">
+        <a href="#" class="hamburger-menu hidden">
           <div class="hamburger-icon">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
+            <div class="bar bar-1"></div>
+            <div class="bar bar-2"></div>
+            <div class="bar bar-3"></div>
           </div>
         </a>
+
         <ul class="nav-links">
           <li><a href="#" class="nav-link">Home</a></li>
           <li><a href="#" class="nav-link">Insomnia</a></li>
@@ -40,10 +41,14 @@
           <li><a href="#" class="nav-link">buy</a></li>
 
           <li class="dropdown">
-            <button class="navlink dropdown-btn">
+            <a class="navlink dropdown-btn">
               other
-              <img src="./img/down-filled-triangular-arrow.webp" alt="" />
-            </button>
+              <img
+                src="./img/down-filled-triangular-arrow.webp"
+                alt=""
+                class="dropdown-icon"
+              />
+            </a>
 
             <ul class="dropdown-menu">
               <li><a href="#" class="dropdown-link">Children</a></li>
